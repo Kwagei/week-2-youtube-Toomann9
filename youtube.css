@@ -1,0 +1,308 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+.flex-div{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    padding: 4px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+img{
+    cursor: pointer;
+}
+
+.nav-left .menu-icon{
+    width: 60px;
+    height: 60px;
+    margin-right: 25px;
+}
+
+.nav-left .logo{
+    width: 130px; 
+    height: 70px;
+}
+
+.nav-middle .mic-icon{
+    width: 30px; 
+    height: 30px;
+}
+.nav-middle .search-box{
+    border-radius: 5px;
+    border: 0.5px solid #ccc;
+    margin-right: 15px;
+    padding: 0.5px;
+    /* border-radius: 25px; */
+}
+.nav-middle .search-box .searchlogo{
+    border-radius: 5px;
+    background: transparent;
+}
+
+.nav-middle .search-box input{
+    border-radius: 5px;
+    border: 0;
+    padding: 13px 23px;
+    font-family: 'Poppins' sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    display: block;
+    width: 600px;
+    outline: 0;
+    background: transparent;
+}
+
+.nav-right .user-icon{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 0;
+}
+.nav-right img{
+    margin-right: 25px;
+    width: 25px;
+}
+
+.side-bar{
+    background: #fff;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding-left: 2%;
+    padding-top: 80px;
+}
+
+.shortcut-links a img{
+    width: 20px;
+    margin-right: 20px;
+}
+.shortcut-links a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+
+.shortcut-links a:first-child{
+    color: #ed3833;
+}
+
+.side-bar hr{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    width: 85%;
+}
+
+.subscribed-list h3{
+    font-size: 13px;
+    margin: 20px 0;
+    color: #5a5a5a;
+}
+
+.subscribed-list a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+
+.subscribed-list a img{
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.small-sidebar{
+    width: 5%;
+}
+
+.small-sidebar a p{
+    display: none;
+}
+
+.small-sidebar h3{
+    display: none;
+}
+
+.small-sidebar hr{
+    width: 50%;
+    margin-bottom: 25px;
+}
+
+.container{
+    background: #f9f9f9;
+    padding-left: 17%;
+    padding-right: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* .banner{
+} */
+
+.banner img{
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.abochi:hover{
+    height: 250px;
+    width: 300px;
+    transition: 1s;
+}
+
+.alonzo-pic:hover{
+    height: 250px;
+    width: 300px;
+    transition: 1s;
+}
+
+.bisa-kdei:hover{
+    height: 250px;
+    width: 300px;
+    transition: 1s;
+}
+
+.one-dollar:hover{
+    height: 250px;
+    width: 300px;
+    transition: 1s;
+}
+
+.ada-buchi:hover{
+    height: 250px;
+    width: 300px;
+    transition: 1s;
+}
+
+.minister-guc:hover{
+    height: 250px;
+    width: 300px;
+    transition: 1s;
+}
+
+.judikay:hover{
+    height: 250px;
+    width: 300px;
+    transition: 1s;
+}
+
+.tasha-kiera:hover{
+    height: 250px;
+    width: 300px;
+    transition: 1s;
+}
+
+.ofnell:hover{
+    height: 250px;
+    width: 300px;
+    transition: 1s;
+}
+
+.thunder:hover{
+    height: 250px;
+    width: 300px;
+    transition: 1s;
+}
+
+.anything:hover{
+    height: 250px;
+    width: 300px;
+    transition: 1s;
+}
+
+.back-F:hover{
+    height: 250px;
+    width: 300px;
+    transition: 1s;
+}
+
+.vid-upload:hover{
+    height: 35px;
+    width: 40px;
+}
+
+.more:hover{
+    height: 35px;
+    width: 40px;
+}
+
+.notifyme:hover{
+    height: 35px;
+    width: 40px;
+}
+
+.user-icon:hover{
+    height: 35px;
+    width: 40px;
+}
+
+.home-icon:hover{
+    height: 35px;
+    width: 40px;
+}
+
+.explore-icon:hover{
+    height: 35px;
+    width: 40px;
+}
+
+.z-icon:hover{
+    height: 35px;
+    width: 40px;
+}
+
+.subscription-icon:hover{
+    height: 35px;
+    width: 40px;
+}
+
+.library-icon:hover{
+    height: 35px;
+    width: 40px;
+}
+
+.history-icon:hover{
+    height: 35px;
+    width: 40px;
+}
+
+.playlist-icon:hover{
+    height: 35px;
+    width: 40px;
+}
+
+.message-icon:hover{
+    height: 35px;
+    width: 40px;
+}
+
+.watch-later:hover{
+    height: 35px;
+    width: 40px;
+}
+
+.showmore-icon:hover{
+    height: 35px;
+    width: 40px;
+}
