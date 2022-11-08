@@ -6,60 +6,275 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>YouTube Homepage</title>
         <link rel="stylesheet" href="./youtube.css">
-        <link rel="stylesheet" href="./css/fontawesome.css">
-        <link rel="stylesheet" href="./css/fontawesome.min.css">
-        <link rel="stylesheet" href="./css/all.min.css">
+        <link rel="stylesheet" href="./fontawesome-free-6.2.0-web/css/fontawesome.css">
+        <link rel="stylesheet" href="./fontawesome-free-6.2.0-web/css/all.min.css">
+        <link rel="stylesheet" href="./fontawesome-free-6.2.0-web/css/fontawesome.min.css">
+        
     </head>
     <body>
         <nav class="flex-div">
             <div class="nav-left flex-div">
-                <img src="./Icons/menulogo.png" class="menu-icon">
-                <img src="./Icons/youtube_logo_new-759.jpg" class="logo">
+                <i class="fa-solid fa-bars" width="50px" height="49px" id="menu-bar"></i>
+                <i class='fab fa-youtube' id="youtube-bar"></i>
+                <p style="font-family: 'poppins'; font-weight:700;">YouTube</p>
+                <!-- <i class='fab fa-youtube'></i> -->
             </div>
             <div class="nav-middle flex-div">
                 <div class="search-box flex-div">
                     <input type="text" placeholder="Search">
-                    <img src="./Icons/searchlogo.png" width="50px" height="49px" class="searchlogo">
+                    <a href="#" class="fa-solid fa-magnifying-glass" width="50px" height="49px" id="searchlogo"></a>
                 </div>
-                    <img src="./Icons/miclogo.png" class="mic-icon">
+                <i class="fa-solid fa-microphone" id="mic-icon"></i>
             </div>
 
             <div class="nav-right flex-div">
-                <img src="./Icons/video upload.webp" width="28px" height="30px" class="vid-upload">
-                <img src="./Icons/moreIcon.png" width="28px" height="30px" class="more">
-                <img src="./Icons/noticebar.png" width="28px" height="30px" class="notifyme">
-                <img src="./Icons/user.png" width="28px" height="30px" class="user-icon">
+                
+                <i class="fa-solid fa-video" id="vid-upload"></i>
+                <i class="fa-solid fa-bell" id="notifyme"></i>
+                <i class="fa-solid fa-circle-user" id="user-icon"></i>
             </div>
        </nav>
 
-        <div class="side-bar">
+        <div class="side-bar" style="overflow-y: auto;">
             <div class="shortcut-links">
-                <a href="#"><img src="./Icons/homelogo.png" width="30px" height="20px" class="home-icon"><p>Home</p></a>
-                <a href="#"><img src="./Icons/explore.png" width="20px" height="20px" class="explore-icon"><p>Explore</p></a>
-                <a href="#"><img src="./Icons/Screenshot from 2022-09-26 00-58-23.png" width="20px" height="20px" class="z-icon"><p>Shorts</p></a>
-                <a href="#"><img src="./Icons/crib.png" width="20px" height="20px" class="subscription-icon"><p>Subscription</p></a>
-                <hr>
-                <a href="#"><img src="./Icons/libraylogo good.png" width="20px" height="20px" class="library-icon"><p>Library</p></a>
-                <a href="#"><img src="./Icons/history-icon.png" width="20px" height="20px" class="history-icon"><p>History</p></a>
-                <a href="#"><img src="./Icons/png-transparent-computer-icons-playlist-icon-music-angle-text-rectangle-thumbnail.png" width="20px" height="20px" class="playlist-icon"><p>Playlist</p></a>
-                <a href="#"><img src="./Icons/print-239275171.jpg" width="20px" height="20px" class="message-icon"><p>Messages</p></a>
-                <a href="#"><img src="./Icons/watchlater.png" width="30px" height="20px" class="watch-later"><p>Watch Later</p></a>
-                <a href="#"><img src="./Icons/load-more-icon.png" width="20px" height="20px" class="showmore-icon"><p>Show more</p></a>
-                <hr>
+
+              <div class="home-icon">
+                <i class="fa-solid fa-house"></i>
+                <a href="#"><p> Home</p></a>
+              </div>
+
+            <div class="shorts-icon">
+                <i class="fa-solid fa-maximize"></i>
+              <a href="#">Shorts</a>
             </div>
-            <div class="subscribed-list">
-                <h3>SUBSCRIBED</h3>
-                <a href="#"><img src="./Icons/Nell Cover.png" class="home-icon"><p>Onto-Boi</p></a>
-                <a href="#"><img src="./Icons/Nell Cover.png" class="home-icon"><p>Onto-Boi</p></a>
-                <a href="#"><img src="./Icons/Nell Cover.png" class="home-icon"><p>Onto-Boi</p></a>
-                <a href="#"><img src="./Icons/Nell Cover.png" class="home-icon"><p>Onto-Boi</p></a>
-                <a href="#"><img src="./Icons/Nell Cover.png" class="home-icon"><p>Onto-Boi</p></a>
+
+            <div class="subscription-icon">
+                <i class="fa-solid fa-folder-open"></i>
+              <a href="#">Subscription</a>
             </div>
+
+            <hr>
+
+        <div class="library-icon">
+            <i class="fa-solid fa-photo-film"></i>
+            <!-- <i class="fa-solid fa-clone"></i> -->
+            <a href="#">Library</a>
+        </div> 
+
+        <div class="history-icon">
+            <i class="fa-solid fa-clock-rotate-left"></i>
+            <!-- <i class="fa-solid fa-rotate-left"></i> -->
+            <a href="#">History</a>
         </div>
+
+        <div class="yourvideo-icon">
+            <i class="fa-solid fa-circle-play"></i>
+            <a href="#">Your Videos</a>
+        </div>
+        
+        <div class="watch-later">
+            <i class="fa-solid fa-clock"></i>
+            <a href="#">Watch Later</a>
+        </div>
+
+        <div class="liked-icon">
+            <i class="fa-solid fa-thumbs-up"></i>
+            <a href="#">Liked Videos</a>
+        </div>
+
+        <div class="showmore-icon">
+            <i class="fa-solid fa-angle-down"></i>
+            <a href="#">Show more</a>
+        </div>
+            <hr>
+           
+        </div>
+        <div class="subscribed-list">
+            <h3>Subscriptions</h3>
+                <a href="#"><img src="./Icons/Nell Cover.png" class="home-icon"><p>Onto-Boi</p></a>
+                <a href="#"><img src="./pray.jpeg" class="home-icon"><p>Onto-Boi</p></a>
+                <a href="#"><img src="./Icons/Nell Cover.png" class="home-icon"><p>Onto-Boi</p></a>
+                <a href="#"><img src="./classroom.jpeg" class="home-icon"><p>Onto-Boi</p></a>
+                <a href="#"><img src="./Icons/Nell Cover.png" class="home-icon"><p>Onto-Boi</p></a>
+                <a href="#"><img src="./pray.jpeg" class="home-icon"><p>Onto-Boi</p></a>
+                <a href="#"><img src="./Icons/Nell Cover.png" class="home-icon"><p>Onto-Boi</p></a>
+                <div class="showmore-icon">
+                    <i class="fa-solid fa-angle-down"></i>
+                    <a href="#">Show 25 more</a>
+                </div>
+        </div>
+        <hr>
+        <div class="explore-list">
+            <h3>Explore</h3>
+
+            <div class="trending-icon">
+                <i class="fa-solid fa-fire-flame-curved"></i>
+                <a href="#">Trending</a>
+            </div>
+
+            <div class="music-icon">
+            <i class="fa-solid fa-music"></i>
+                <a href="#">Music</a>
+            </div>
+
+            <div class="live-icon">
+                <i class="fa-solid fa-tower-cell"></i>
+                <a href="#">Live</a>
+            </div>
+
+            <div class="gaming-icon">
+                <i class="fa-solid fa-gamepad"></i>
+                <a href="#">Gaming</a>
+            </div>
+
+            <div class="news-icon">
+                <i class="fa-solid fa-globe"></i>
+                <a href="#">News</a>
+            </div>
+
+            <div class="sports-icon">
+                <i class="fa-solid fa-trophy"></i>
+                <a href="#">Sports</a>
+            </div>
+
+            <div class="learning-icon">
+                <i class="fa-solid fa-lightbulb"></i>
+                <a href="#">Learning</a>
+            </div>
+
+            <div class="fashion-icon">
+                <i class="fa-solid fa-vest"></i>
+                <!-- <i class="fa-solid fa-fire"></i> -->
+                <a href="#">Fashion & Beauty</a>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="ytube-list">
+            <h3>More from YouTube</h3>
+
+            <div class="creator-icon">
+                <i class="fa-solid fa-box"></i>
+                <!-- <i class="fa-solid fa-fire-flame-curved"></i> -->
+                <a href="#">Creator Studio</a>
+            </div>
+
+            <div class="ymusic-icon">
+                <i class="fa-solid fa-circle-play" id="youmi"></i>
+            <!-- <i class="fa-solid fa-music"></i> -->
+                <a href="#">YouTube Music</a>
+            </div>
+
+            <div class="ykids-icon">
+                <i class='fab fa-youtube'></i>
+                <!-- <i class="fa-solid fa-tower-cell"></i> -->
+                <a href="#">YouTube Kids</a>
+            </div>
+
+            <div class="ytv-icon">
+                <i class="fa-solid fa-tv"></i>
+                <!-- <i class="fa-solid fa-gamepad"></i> -->
+                <a href="#">YouTube TV</a>
+            </div>
+
+            <hr>
+
+            <div class="setting-icon">
+                <i class="fa-solid fa-gear"></i>
+                <a href="#">Settings</a>
+            </div>
+
+            <div class="rhistory-icon">
+                <i class="fa-solid fa-flag"></i>
+                <!-- <i class="fa-solid fa-trophy"></i> -->
+                <a href="#">Report History</a>
+            </div>
+
+            <div class="learning-icon">
+                <i class="fa-solid fa-circle-question"></i>
+                <!-- <i class="fa-solid fa-lightbulb"></i> -->
+                <a href="#">Help</a>
+            </div>
+
+            <div class="fashion-icon">
+                <i class="fa-solid fa-comment-dots"></i>
+                <!-- <i class="fa-solid fa-fire"></i> -->
+                <a href="#">Send Feedback</a>
+            </div>
+
+        </div>
+   </div>
 
 
         <div class="container">
+           
             <H2 style="color: rgb(7, 197, 215);">This is not the Official Youtube Page but a student practice</H2>
+
+            <div class="top-bar" style="overflow-x: auto; display: flex;">
+
+                <div class="all-tag">
+                    <a href="#">All</a>
+                </div>
+
+                <div class="gaming-tag">
+                    <a href="#">Gaming</a>
+                </div>
+
+                <div class="music-tag">
+                    <a href="#">Music</a>
+                </div>
+
+                <div class="sports-tag">
+                    <a href="#">Sports</a>
+                </div>
+
+                <div class="comedy-tag">
+                    <a href="#">Comedy</a>
+                </div>
+
+                <div class="live-tag">
+                    <a href="#">Live</a>
+                </div>
+
+                <div class="afro-tag">
+                    <a href="#">Afrobeats</a>
+                </div>
+
+                <div class="american-tag">
+                    <a href="#">American</a>
+                </div>
+
+                <div class="football-tag">
+                    <a href="#">Football</a>
+                </div>
+
+                <div class="cricket-tag">
+                    <a href="#">Cricket</a>
+                </div>
+
+                <div class="boxing-tag">
+                    <a href="#">Boxing</a>
+                </div>
+
+                <div class="wrestling-tag">
+                    <a href="#">Wrestling</a>
+                </div>
+
+                <div class="racing-tag">
+                    <a href="#">Racing</a>
+                </div>
+
+                <div class="basketball-tag">
+                    <a href="#">BasketBall</a>
+                </div>
+
+                <div class="volleyball-tag">
+                    <a href="#">VolleyBall</a>
+                </div>
+            </div>
+
             <div class="vid-list">
                 <div class="flex-div">
             <div class="banner">
