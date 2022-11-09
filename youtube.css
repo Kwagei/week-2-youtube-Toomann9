@@ -28,15 +28,17 @@ nav{
     box-sizing: border-box;
     padding: 10px;
 }
-.top-bar .element::-webkit-scrollbar { width: 0 !important }
+.top-bar::-webkit-scrollbar {
+    display: none;
+}
 
 /* TAGS */
 .all-tag{
     background-color: #141414;
     padding-right: 20px;
-    padding-top: 8.5px;
+    padding-top: 8px;
     padding-left: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     border-radius: 8px;
 }
 .all-tag a{
@@ -49,9 +51,9 @@ nav{
 .gaming-tag{
     background-color: #c6c6c6;
     padding-right: 20px;
-    padding-top: 8.5px;
+    padding-top: 8px;
     padding-left: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     border-radius: 8px;
     margin-left: 12px;
 }
@@ -63,9 +65,9 @@ nav{
 .music-tag{
     background-color: #c6c6c6;
     padding-right: 20px;
-    padding-top: 8.5px;
+    padding-top: 8px;
     padding-left: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     border-radius: 8px;
     margin-left: 12px;
 }
@@ -77,9 +79,9 @@ nav{
 .sports-tag{
     background-color: #c6c6c6;
     padding-right: 20px;
-    padding-top: 8.5px;
+    padding-top: 8px;
     padding-left: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     border-radius: 8px;
     margin-left: 12px;
 }
@@ -90,9 +92,9 @@ nav{
 .comedy-tag{
     background-color: #c6c6c6;
     padding-right: 20px;
-    padding-top: 8.5px;
+    padding-top: 8px;
     padding-left: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     border-radius: 8px;
     margin-left: 12px;
 }
@@ -104,9 +106,9 @@ nav{
 .wrestling-tag{
     background-color: #c6c6c6;
     padding-right: 20px;
-    padding-top: 8.5px;
+    padding-top: 8px;
     padding-left: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     border-radius: 8px;
     margin-left: 12px;
 }
@@ -118,9 +120,9 @@ nav{
 .basketball-tag{
     background-color: #c6c6c6;
     padding-right: 20px;
-    padding-top: 8.5px;
+    padding-top: 8px;
     padding-left: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     border-radius: 8px;
     margin-left: 12px;
 }
@@ -132,9 +134,9 @@ nav{
 .volleyball-tag{
     background-color: #c6c6c6;
     padding-right: 20px;
-    padding-top: 8.5px;
+    padding-top: 8px;
     padding-left: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     border-radius: 8px;
     margin-left: 12px;
 }
@@ -146,9 +148,9 @@ nav{
 .afro-tag{
     background-color: #c6c6c6;
     padding-right: 20px;
-    padding-top: 8.5px;
+    padding-top: 8px;
     padding-left: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     border-radius: 8px;
     margin-left: 12px;
 }
@@ -160,9 +162,9 @@ nav{
 .football-tag{
     background-color: #c6c6c6;
     padding-right: 20px;
-    padding-top: 8.5px;
+    padding-top: 8px;
     padding-left: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     border-radius: 8px;
     margin-left: 12px;
 }
@@ -174,9 +176,9 @@ nav{
 .cricket-tag{
     background-color: #c6c6c6;
     padding-right: 20px;
-    padding-top: 8.5px;
+    padding-top: 8px;
     padding-left: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     border-radius: 8px;
     margin-left: 12px;
 }
@@ -188,9 +190,9 @@ nav{
 .live-tag{
     background-color: #c6c6c6;
     padding-right: 20px;
-    padding-top: 8.5px;
+    padding-top: 8px;
     padding-left: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     border-radius: 8px;
     margin-left: 12px;
 }
@@ -202,9 +204,9 @@ nav{
 .boxing-tag{
     background-color: #c6c6c6;
     padding-right: 20px;
-    padding-top: 8.5px;
+    padding-top: 8px;
     padding-left: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     border-radius: 8px;
     margin-left: 12px;
 }
@@ -216,9 +218,9 @@ nav{
 .american-tag{
     background-color: #c6c6c6;
     padding-right: 20px;
-    padding-top: 8.5px;
+    padding-top: 8px;
     padding-left: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     border-radius: 8px;
     margin-left: 12px;
 }
@@ -230,9 +232,9 @@ nav{
 .racing-tag{
     background-color: #c6c6c6;
     padding-right: 20px;
-    padding-top: 8.5px;
+    padding-top: 8px;
     padding-left: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     border-radius: 8px;
     margin-left: 12px;
 }
@@ -244,9 +246,9 @@ nav{
 .wrestling-tag{
     background-color: #c6c6c6;
     padding-right: 20px;
-    padding-top: 8.5px;
+    padding-top: 8px;
     padding-left: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     border-radius: 8px;
     margin-left: 12px;
 }
@@ -285,7 +287,8 @@ img{
     margin-right: 12px;
 }
 #youtube-bar{
-    margin-left: 14px;
+    margin-left: 24px;
+    padding: 5px;
     /* width: 70px;
     height: 69px; */
     color: red;
@@ -515,7 +518,17 @@ img{
     /* font-size: 14px; */
 }
 /* TV ZONE */
+#fly-fly{
+    margin-top: 30px;
+}
 
+#fly-fly i{
+    color: rgb(236, 10, 10);
+}
+
+#fly-fly a{
+   font-size: 20px;
+}
 .sports-icon{
     display: flex;
 }
@@ -725,76 +738,70 @@ img{
     margin: 10px;
 }
 
-.abochi:hover{
-    height: 250px;
-    width: 300px;
-    transition: 1s;
+
+/* VIDEOS */
+.first-video{
+    border-radius: 10px;
 }
 
-.alonzo-pic:hover{
-    height: 250px;
-    width: 300px;
-    transition: 1s;
+.second-video{
+    border-radius: 10px;
 }
 
-.bisa-kdei:hover{
-    height: 250px;
-    width: 300px;
-    transition: 1s;
+.third-video{
+    border-radius: 10px;
 }
 
-.one-dollar:hover{
-    height: 250px;
-    width: 300px;
-    transition: 1s;
+.forth-video{
+    border-radius: 10px;
 }
 
-.ada-buchi:hover{
-    height: 250px;
-    width: 300px;
-    transition: 1s;
+.fifth-video{
+    border-radius: 10px;
 }
 
-.minister-guc:hover{
-    height: 250px;
-    width: 300px;
-    transition: 1s;
+.sixth-video{
+    border-radius: 10px;
 }
 
-.judikay:hover{
-    height: 250px;
-    width: 300px;
-    transition: 1s;
+.seventh-video{
+    border-radius: 10px;
 }
 
-.tasha-kiera:hover{
-    height: 250px;
-    width: 300px;
-    transition: 1s;
+.eighth-video{
+    border-radius: 10px;
 }
 
-.ofnell:hover{
-    height: 250px;
-    width: 300px;
-    transition: 1s;
+.nineth-video{
+    border-radius: 10px;
 }
 
-.thunder:hover{
-    height: 250px;
-    width: 300px;
-    transition: 1s;
+.tenth-video{
+    border-radius: 10px;
 }
 
-.anything:hover{
-    height: 250px;
-    width: 300px;
-    transition: 1s;
+.eleventh-video{
+    border-radius: 10px;
 }
 
-.back-F:hover{
-    height: 250px;
-    width: 300px;
-    transition: 1s;
+.twelveth-video{
+    border-radius: 10px;
+}
+/* VIDEOS */
+
+#divide-line{
+    color: #9fa7a4;
+    width: 98.9%;
+    padding: 2px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.after-shorts{
+    margin-bottom: 20px;
+}
+#batch-two{
+    margin-top: 50px;
 }
 #notifyme{
     margin-right: 30px;
@@ -803,72 +810,46 @@ img{
     margin-right: 30px;
 }
 
-/* .vid-upload:hover{
-    height: 35px;
-    width: 40px;
+/* FOOTER */
+.foot-one a{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px;
 }
 
-.more:hover{
-    height: 35px;
-    width: 40px;
+.foot-two a{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px;
 }
 
-.notifyme:hover{
-    height: 35px;
-    width: 40px;
+.foot-three a{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px;
 }
 
-#user-icon:hover{
-    height: 35px;
-    width: 40px; */
-/* }
-
-.home-icon:hover{
-    height: 35px;
-    width: 40px;
+.foot-four a{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px;
 }
 
-.explore-icon:hover{
-    height: 35px;
-    width: 40px;
+.foot-five a{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px;
 }
 
-.z-icon:hover{
-    height: 35px;
-    width: 40px;
+.foot-six a{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px;
 }
 
-.subscription-icon:hover{
-    height: 35px;
-    width: 40px;
+.foot-seven p{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px;
 }
-
-.library-icon:hover{
-    height: 35px;
-    width: 40px;
-}
-
-.history-icon:hover{
-    height: 35px;
-    width: 40px;
-}
-
-.playlist-icon:hover{
-    height: 35px;
-    width: 40px;
-}
-
-.message-icon:hover{
-    height: 35px;
-    width: 40px;
-}
-
-.watch-later:hover{
-    height: 35px;
-    width: 40px;
-}
-
-.showmore-icon:hover{
-    height: 35px;
-    width: 40px;
-} */
+/* FOOTER */
