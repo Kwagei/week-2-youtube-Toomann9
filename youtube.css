@@ -1,0 +1,855 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+.flex-div{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    padding: 4px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.top-bar{
+    box-sizing: border-box;
+    padding: 10px;
+}
+.top-bar::-webkit-scrollbar {
+    display: none;
+}
+
+/* TAGS */
+.all-tag{
+    background-color: #141414;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+}
+.all-tag a{
+    font-family: sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.gaming-tag{
+    background-color: #c6c6c6;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    margin-left: 12px;
+}
+.gaming-tag a{
+    font-family: sans-serif;
+    color: #141414;
+}
+
+.music-tag{
+    background-color: #c6c6c6;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    margin-left: 12px;
+}
+.music-tag a{
+    font-family: sans-serif;
+    color: #141414;
+}
+
+.sports-tag{
+    background-color: #c6c6c6;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    margin-left: 12px;
+}
+.sports-tag a{
+    font-family: sans-serif;
+    color: #141414;
+}
+.comedy-tag{
+    background-color: #c6c6c6;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    margin-left: 12px;
+}
+.comedy-tag a{
+    font-family: sans-serif;
+    color: #141414;
+}
+
+.wrestling-tag{
+    background-color: #c6c6c6;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    margin-left: 12px;
+}
+.wrestling-tag a{
+    font-family: sans-serif;
+    color: #141414;
+}
+
+.basketball-tag{
+    background-color: #c6c6c6;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    margin-left: 12px;
+}
+.basketball-tag a{
+    font-family: sans-serif;
+    color: #141414;
+}
+
+.volleyball-tag{
+    background-color: #c6c6c6;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    margin-left: 12px;
+}
+.volleyball-tag a{
+    font-family: sans-serif;
+    color: #141414;
+}
+
+.afro-tag{
+    background-color: #c6c6c6;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    margin-left: 12px;
+}
+.afro-tag a{
+    font-family: sans-serif;
+    color: #141414;
+}
+
+.football-tag{
+    background-color: #c6c6c6;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    margin-left: 12px;
+}
+.football-tag a{
+    font-family: sans-serif;
+    color: #141414;
+}
+
+.cricket-tag{
+    background-color: #c6c6c6;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    margin-left: 12px;
+}
+.cricket-tag a{
+    font-family: sans-serif;
+    color: #141414;
+}
+
+.live-tag{
+    background-color: #c6c6c6;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    margin-left: 12px;
+}
+.live-tag a{
+    font-family: sans-serif;
+    color: #141414;
+}
+
+.boxing-tag{
+    background-color: #c6c6c6;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    margin-left: 12px;
+}
+.boxing-tag a{
+    font-family: sans-serif;
+    color: #141414;
+}
+
+.american-tag{
+    background-color: #c6c6c6;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    margin-left: 12px;
+}
+.american-tag a{
+    font-family: sans-serif;
+    color: #141414;
+}
+
+.racing-tag{
+    background-color: #c6c6c6;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    margin-left: 12px;
+}
+.racing-tag a{
+    font-family: sans-serif;
+    color: #141414;
+}
+
+.wrestling-tag{
+    background-color: #c6c6c6;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    margin-left: 12px;
+}
+.wrestling-tag a{
+    font-family: sans-serif;
+    color: #141414;
+}
+/* TAGS */
+img{
+    cursor: pointer;
+}
+
+.nav-left .menu-icon{
+    width: 60px;
+    height: 60px;
+    margin-right: 25px;
+}
+
+.nav-left .logo{
+    width: 130px; 
+    height: 70px;
+}
+
+.nav-middle .mic-icon{
+    width: 30px; 
+    height: 30px;
+}
+.nav-middle .search-box{
+    border-radius: 5px;
+    border: 0.5px solid #ccc;
+    margin-right: 15px;
+    padding: 0.5px;
+    /* border-radius: 25px; */
+}
+#searchlogo{
+    margin-right: 12px;
+}
+#youtube-bar{
+    margin-left: 24px;
+    padding: 5px;
+    /* width: 70px;
+    height: 69px; */
+    color: red;
+}
+.nav-middle .search-box .searchlogo{
+    border-radius: 5px;
+    background: transparent;
+}
+
+.nav-middle .search-box input{
+    border-radius: 5px;
+    border: 0;
+    padding: 13px 23px;
+    font-family: 'Poppins' sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    display: block;
+    width: 600px;
+    outline: 0;
+    background: transparent;
+}
+
+.nav-right .user-icon{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 0;
+}
+.nav-right img{
+    margin-right: 25px;
+    width: 25px;
+}
+
+.side-bar{
+    background: #fff;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding-left: 2%;
+    padding-top: 80px;
+}
+
+.shortcut-links a img{
+    width: 20px;
+    margin-right: 20px;
+}
+.shortcut-links a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+
+.shortcut-links a:first-child{
+    color: #ed3833;
+}
+
+/* SHORTCUT DIVS */
+.home-icon{
+    display: flex;
+}
+.home-icon a{
+    margin-left: 30px;
+    font-weight: 600;
+    color: black;
+    font-size: 14px;
+}
+
+.liked-icon{
+    display: flex;
+}
+.liked-icon a{
+    margin-left: 30px;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+}
+
+.shorts-icon{
+    display: flex;
+}
+.shorts-icon a{
+    margin-left: 30px;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+}
+.watch-later i{
+    /* color: rgb(92, 84, 84); */
+}
+
+.watch-later{
+    display: flex;
+}
+.watch-later a{
+    margin-left: 30px;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+}
+.library-icon{
+    margin-top: 10px;
+}
+.history-icon{
+    display: flex;
+}
+
+.history-icon a{
+    margin-left: 30px;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+}
+
+.rhistory-icon{
+    display: flex;
+}
+
+.rhistory-icon a{
+    margin-left: 30px;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+}
+
+.showmore-icon{
+    display: flex;
+}
+
+.showmore-icon a{
+    margin-left: 30px;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+}
+
+.music-icon{
+    display: flex;
+}
+
+.music-icon a{
+    margin-left: 30px;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+}
+
+.setting-icon{
+    display: flex;
+    margin-top: 14px;
+}
+
+.setting-icon a{
+    margin-left: 30px;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+}
+
+.ymusic-icon{
+    display: flex;
+}
+
+.ymusic-icon a{
+    margin-left: 30px;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+}
+
+.ymusic-icon i{
+   
+    color: rgb(236, 10, 10);
+    /* font-size: 14px; */
+}
+
+.creator-icon{
+    display: flex;
+}
+
+.creator-icon a{
+    margin-left: 30px;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+}
+
+.creator-icon i{
+   
+    color: rgb(236, 10, 10);
+    /* font-size: 14px; */
+}
+/* KIDS */
+.ykids-icon{
+    display: flex;
+}
+
+.ykids-icon a{
+    margin-left: 30px;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+}
+
+.ykids-icon i{
+   
+    color: rgb(236, 10, 10);
+    /* font-size: 14px; */
+}
+
+/* TV ZONE */
+.ytv-icon{
+    display: flex;
+}
+
+.ytv-icon a{
+    margin-left: 30px;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+}
+
+.ytv-icon i{
+   
+    color: rgb(236, 10, 10);
+    /* font-size: 14px; */
+}
+/* TV ZONE */
+#fly-fly{
+    margin-top: 30px;
+}
+
+#fly-fly i{
+    color: rgb(236, 10, 10);
+}
+
+#fly-fly a{
+   font-size: 20px;
+}
+.sports-icon{
+    display: flex;
+}
+
+.sports-icon a{
+    margin-left: 30px;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+}
+
+.learning-icon{
+    display: flex;
+}
+
+.learning-icon a{
+    margin-left: 30px;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+}
+
+.trending-icon{
+    display: flex;
+}
+
+.trending-icon a{
+    margin-left: 30px;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+}
+
+.live-icon{
+    display: flex;
+}
+
+.live-icon a{
+    margin-left: 30px;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+}
+
+.gaming-icon{
+    display: flex;
+}
+
+.gaming-icon a{
+    margin-left: 30px;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+}
+/*  */
+.subscription-icon{
+    display: flex;
+}
+
+.subscription-icon a{
+    margin-left: 30px;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+}
+
+.yourvideo-icon{
+    display: flex;
+}
+
+.yourvideo-icon a{
+    margin-left: 30px;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+}
+
+.library-icon{
+    display: flex;
+}
+
+.library-icon a{
+    margin-left: 30px;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+}
+
+.fashion-icon{
+    display: flex;
+}
+
+.fashion-icon a{
+    margin-left: 30px;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+}
+
+.news-icon{
+    display: flex;
+}
+
+.news-icon a{
+    margin-left: 30px;
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+}
+/* SHORTCUT DIVS */
+.side-bar hr{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    width: 85%;
+}
+
+.subscribed-list h3{
+    font-size: 13px;
+    margin: 20px 0;
+    color: #5a5a5a;
+}
+
+.subscribed-list a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+
+.subscribed-list a img{
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.explore-list h3{
+    font-size: 13px;
+    margin: 20px 0;
+    color: #5a5a5a;
+}
+.explore-list a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+
+.explore-list a img{
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* YTUBE */
+.ytube-list h3{
+    font-size: 13px;
+    margin: 20px 0;
+    color: #5a5a5a;
+}
+.ytube-list a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+
+.ytube-list a img{
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+/* YTUBE */
+.small-sidebar{
+    width: 5%;
+}
+
+.small-sidebar a p{
+    display: none;
+}
+
+.small-sidebar h3{
+    display: none;
+}
+
+.small-sidebar hr{
+    width: 50%;
+    margin-bottom: 25px;
+}
+
+.container{
+    background: #f9f9f9;
+    padding-left: 17%;
+    padding-right: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* .banner{
+} */
+
+.banner img{
+    border-radius: 8px;
+    margin: 10px;
+}
+
+
+/* VIDEOS */
+.first-video{
+    border-radius: 10px;
+}
+
+.second-video{
+    border-radius: 10px;
+}
+
+.third-video{
+    border-radius: 10px;
+}
+
+.forth-video{
+    border-radius: 10px;
+}
+
+.fifth-video{
+    border-radius: 10px;
+}
+
+.sixth-video{
+    border-radius: 10px;
+}
+
+.seventh-video{
+    border-radius: 10px;
+}
+
+.eighth-video{
+    border-radius: 10px;
+}
+
+.nineth-video{
+    border-radius: 10px;
+}
+
+.tenth-video{
+    border-radius: 10px;
+}
+
+.eleventh-video{
+    border-radius: 10px;
+}
+
+.twelveth-video{
+    border-radius: 10px;
+}
+/* VIDEOS */
+
+#divide-line{
+    color: #9fa7a4;
+    width: 98.9%;
+    padding: 2px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.after-shorts{
+    margin-bottom: 20px;
+}
+#batch-two{
+    margin-top: 50px;
+}
+#notifyme{
+    margin-right: 30px;
+}
+#vid-upload{
+    margin-right: 30px;
+}
+
+/* FOOTER */
+.foot-one a{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px;
+}
+
+.foot-two a{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px;
+}
+
+.foot-three a{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px;
+}
+
+.foot-four a{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px;
+}
+
+.foot-five a{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px;
+}
+
+.foot-six a{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px;
+}
+
+.foot-seven p{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px;
+}
+/* FOOTER */
